@@ -1,7 +1,6 @@
 apiVersion: v2
 name: helm-mailhog
-description: Chart Helm pour un bouchon de serveur SMTP
-
+description: Chart Helm pour un bouchon de serveur SMTP, forké de https://github.com/codecentric/helm-charts  pour pouvoir supprimer les security context
 # A chart can be either an 'application' or a 'library' chart.
 #
 # Application charts are a collection of templates that can be packaged into versioned archives
