@@ -1,0 +1,13 @@
+# Default values for helm-mailhog.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+mailhog:
+  securityContext: {}
+  containerSecurityContext: {}
+#  ingress:
+#    enabled: true
+#    hosts:
+#      - host: mailhog.example.com
+#        paths:
+#          - path: "/"
+#            pathType: Prefix
