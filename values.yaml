@@ -2,7 +2,11 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 mailhog:
-  securityContext: {}
+  securityContext:
+    fsGroup: {}
+    runAsGroup: {}
+    runAsNonRoot: {}
+    runAsUser: {}
   containerSecurityContext: {}
 #  ingress:
 #    enabled: true
