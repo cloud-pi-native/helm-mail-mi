@@ -1,6 +1,6 @@
 image:
   repository: docker.io/mailhog/mailhog
-  tag: ""
+  tag: "latest"
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
